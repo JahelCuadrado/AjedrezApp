@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/AjedrezApp/app/src/main/res/drawable/bg_casilla_blanca.xml" value="0.22" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/AjedrezApp/app/src/main/res/drawable/bg_casilla_negra.xml" value="0.2" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/AjedrezApp/app/src/main/res/drawable/bg_data_bottom_contrast.xml" value="0.215" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/AjedrezApp/app/src/main/res/drawable/bg_data_top_contrast.xml" value="0.215" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/AjedrezApp/app/src/main/res/drawable/bg_moves_bottom.xml" value="0.215" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/AjedrezApp/app/src/main/res/drawable/bg_moves_top.xml" value="0.215" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/AjedrezApp/app/src/main/res/drawable/bg_title_bottom.xml" value="0.215" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/AjedrezApp/app/src/main/res/drawable/bg_title_top.xml" value="0.215" />
+        <entry key="..\:/Users/Jahel/AndroidStudioProjects/AjedrezApp/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
