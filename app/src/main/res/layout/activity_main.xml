@@ -299,27 +299,733 @@
 
                         <ImageView
                             android:id="@+id/c07"
-                            android:tag="07"
-                            android:layout_column="0"
-                            android:onClick="checkChellClicked"
                             android:layout_width="0dp"
                             android:layout_height="43dp"
+                            android:layout_column="0"
                             android:layout_weight="1"
                             android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
                             android:padding="5dp"
-                            android:src="@drawable/horse" />
+                            android:src="@drawable/horse"
+                            android:tag="07" />
 
                         <ImageView
                             android:id="@+id/c17"
-                            android:tag="17"
-                            android:layout_column="0"
-                            android:onClick="checkChellClicked"
                             android:layout_width="0dp"
                             android:layout_height="43dp"
+                            android:layout_column="0"
                             android:layout_weight="1"
                             android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
                             android:padding="5dp"
-                            android:src="@drawable/horse" />
+                            android:tag="17" />
+
+                        <ImageView
+                            android:id="@+id/c27"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="27" />
+
+                        <ImageView
+                            android:id="@+id/c37"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="37" />
+
+                        <ImageView
+                            android:id="@+id/c47"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="47" />
+
+                        <ImageView
+                            android:id="@+id/c57"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="57" />
+
+                        <ImageView
+                            android:id="@+id/c67"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="67" />
+
+                        <ImageView
+                            android:id="@+id/c77"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="77" />
+                    </TableRow>
+
+                    <TableRow android:weightSum="8">
+
+                        <ImageView
+                            android:id="@+id/c06"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+
+                            android:tag="07" />
+
+                        <ImageView
+                            android:id="@+id/c16"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="17" />
+
+                        <ImageView
+                            android:id="@+id/c26"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="27" />
+
+                        <ImageView
+                            android:id="@+id/c36"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="37" />
+
+                        <ImageView
+                            android:id="@+id/c46"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="47" />
+
+                        <ImageView
+                            android:id="@+id/c56"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="57" />
+
+                        <ImageView
+                            android:id="@+id/c66"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="67" />
+
+                        <ImageView
+                            android:id="@+id/c76"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="77" />
+                    </TableRow>
+
+                    <TableRow android:weightSum="8">
+
+                        <ImageView
+                            android:id="@+id/c05"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="07" />
+
+                        <ImageView
+                            android:id="@+id/c15"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="17" />
+
+                        <ImageView
+                            android:id="@+id/c25"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="27" />
+
+                        <ImageView
+                            android:id="@+id/c35"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="37" />
+
+                        <ImageView
+                            android:id="@+id/c45"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="47" />
+
+                        <ImageView
+                            android:id="@+id/c55"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="57" />
+
+                        <ImageView
+                            android:id="@+id/c65"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="67" />
+
+                        <ImageView
+                            android:id="@+id/c75"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="77" />
+                    </TableRow>
+
+                    <TableRow android:weightSum="8">
+
+                        <ImageView
+                            android:id="@+id/c04"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+
+                            android:tag="07" />
+
+                        <ImageView
+                            android:id="@+id/c14"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="17" />
+
+                        <ImageView
+                            android:id="@+id/c24"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="27" />
+
+                        <ImageView
+                            android:id="@+id/c34"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="37" />
+
+                        <ImageView
+                            android:id="@+id/c44"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="47" />
+
+                        <ImageView
+                            android:id="@+id/c54"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="57" />
+
+                        <ImageView
+                            android:id="@+id/c64"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="67" />
+
+                        <ImageView
+                            android:id="@+id/c74"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="77" />
+                    </TableRow>
+
+                    <TableRow android:weightSum="8">
+
+                        <ImageView
+                            android:id="@+id/c03"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="07" />
+
+                        <ImageView
+                            android:id="@+id/c13"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="17" />
+
+                        <ImageView
+                            android:id="@+id/c23"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="27" />
+
+                        <ImageView
+                            android:id="@+id/c33"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="37" />
+
+                        <ImageView
+                            android:id="@+id/c43"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="47" />
+
+                        <ImageView
+                            android:id="@+id/c53"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="57" />
+
+                        <ImageView
+                            android:id="@+id/c63"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="67" />
+
+                        <ImageView
+                            android:id="@+id/c73"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="77" />
+                    </TableRow>
+
+                    <TableRow android:weightSum="8">
+
+                        <ImageView
+                            android:id="@+id/c02"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+
+                            android:tag="07" />
+
+                        <ImageView
+                            android:id="@+id/c12"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="17" />
+
+                        <ImageView
+                            android:id="@+id/c22"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="27" />
+
+                        <ImageView
+                            android:id="@+id/c32"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="37" />
+
+                        <ImageView
+                            android:id="@+id/c42"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="47" />
+
+                        <ImageView
+                            android:id="@+id/c52"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="57" />
+
+                        <ImageView
+                            android:id="@+id/c62"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="67" />
+
+                        <ImageView
+                            android:id="@+id/c72"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="77" />
+                    </TableRow>
+
+                    <TableRow android:weightSum="8">
+
+                        <ImageView
+                            android:id="@+id/c01"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="07" />
+
+                        <ImageView
+                            android:id="@+id/c11"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="17" />
+
+                        <ImageView
+                            android:id="@+id/c21"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="27" />
+
+                        <ImageView
+                            android:id="@+id/c31"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="37" />
+
+                        <ImageView
+                            android:id="@+id/c41"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="47" />
+
+                        <ImageView
+                            android:id="@+id/c51"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="57" />
+
+                        <ImageView
+                            android:id="@+id/c61"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="67" />
+
+                        <ImageView
+                            android:id="@+id/c71"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="77" />
+                    </TableRow>
+
+                    <TableRow android:weightSum="8">
+
+                        <ImageView
+                            android:id="@+id/c00"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+
+                            android:tag="07" />
+
+                        <ImageView
+                            android:id="@+id/c10"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="17" />
+
+                        <ImageView
+                            android:id="@+id/c20"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="27" />
+
+                        <ImageView
+                            android:id="@+id/c30"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="37" />
+
+                        <ImageView
+                            android:id="@+id/c40"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="47" />
+
+                        <ImageView
+                            android:id="@+id/c50"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="57" />
+
+                        <ImageView
+                            android:id="@+id/c60"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_negra"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="67" />
+
+                        <ImageView
+                            android:id="@+id/c70"
+                            android:layout_width="0dp"
+                            android:layout_height="43dp"
+                            android:layout_column="0"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_casilla_blanca"
+                            android:onClick="checkChellClicked"
+                            android:padding="5dp"
+                            android:tag="77" />
                     </TableRow>
 
                 </TableLayout>
